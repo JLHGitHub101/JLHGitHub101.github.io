@@ -1,0 +1,241 @@
+/* Page Upper Section */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body
+{
+    font-family: sans-serif;
+    font-size: 24px;
+}
+.logo img
+{
+    border-radius: 0.6rem;
+    width: 150px;
+    border: solid;
+}
+h1
+{
+    font-size: 84px;
+    color: rgb(250, 175, 37);
+}
+p
+{
+    font-size: 24px;
+    color: white; 
+    width: fit-content;
+    text-align: justify;
+    padding: .5rem;
+    line-height: 36px;
+    color: black;
+}
+.privacypara
+{
+    width: 750px;
+    align-content: center;
+    margin: auto;
+}
+.privacyInfo ul
+{
+    margin: auto;
+    align-content: center;
+    width: fit-content;
+    line-height: 36px;
+    padding: 36px;
+}
+.privacy
+{
+  padding: 1.5%;
+}
+.nav
+{
+    width: fit-content;
+    display: flex;
+    background-color: rgb(243, 183, 70);
+    padding: 1.2rem;
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+    
+}
+.nav a:hover
+{
+    color: rgb(255, 255, 255);
+}
+.nav ul
+{
+    font-size: 100%;
+    display: flex;
+    width: fit-content;
+    margin: auto;
+    font-weight: bold;
+    margin-top: 5%;
+
+    
+}
+.nav li
+{
+    list-style: none;
+    padding: 12px;
+}
+.upper-section
+{
+    height: 25vh;
+    background: url(./index/S1Covertruck.jpg) no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*********************************************************/
+/** Footer Settings **/
+
+footer 
+{
+    color: white;
+    font-size: 24px;
+    padding: 3%; 
+    text-align: center;
+    background-color: black;
+}
+footer i
+{
+    color: white;
+}
+footer h2
+{
+    margin: 2rem 0 2rem 0;
+}
+
+footer li
+{
+    list-style: none;
+}
+footer a
+{
+    list-style: none;
+    color: white;
+    padding: 12px;
+}
+footer a:hover
+{
+    list-style: none;
+    color: rgb(250, 175, 37);
+    padding: 12px;
+}
+
+
+ @media only screen and (max-width: 700px)
+{
+
+    /****************************************************/
+/* Page Upper Section */
+.logo img
+{
+    border-radius: 0.6rem;
+    width: 150px;
+    margin: auto;
+}
+h1
+{
+    font-size: 48px;
+    color: rgb(250, 175, 37);
+}
+p
+{ 
+    width: 375px;
+    margin: auto 0;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 36px;
+}
+.privacyInfo ul
+{
+    margin: auto;
+    align-content: center;
+    width: fit-content;
+    line-height: 36px;
+    padding: 36px;
+    font-size: 16px;
+    font-weight: bold;
+}
+ /*******************************************************/
+ /* Nav Bar Settings */
+.nav
+{
+    font-size: 50%;
+    position: relative;
+    width: 94%;
+    top: 6rem;
+    background-color: black;
+}
+.nav__link 
+{
+    margin: auto;
+    width: 90%;
+    margin-top: 10%;
+    position: fixed;
+    top: 5rem;
+    background-color: rgb(250, 175, 37);
+
+}
+  .nav__link a 
+{
+    text-align: center;
+    padding: 10px;
+}
+.nav__link ul
+{
+    width: fit-content;
+    text-align: center;
+    display: block;
+    margin: auto;
+    font-weight: bold;
+}
+.hamburger 
+{
+    padding-right: 20px;
+    cursor: pointer;
+    margin-left: 40%;
+}
+.hamburger .line 
+{
+    display: block;
+    width: 35px;
+    height: 5px;
+    margin-bottom: 10px;
+    background-color: rgb(250, 175, 37);
+}
+.hide 
+{
+    display: none;
+}
+.nav a:hover
+{
+    color: rgb(255, 255, 255);
+}
+.nav ul
+{
+
+    width: fit-content;
+    text-align: center;
+    display: block;
+    margin: auto;
+    font-weight: bold;
+}
+.nav li
+{
+    list-style: none;
+    padding: 5px;
+}
+}

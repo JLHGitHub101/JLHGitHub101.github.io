@@ -1,0 +1,143 @@
+.upper-section
+{
+    height: 25vh;
+    background: url(/index/S2Truck.jpg) no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.all-hiring-info li
+{
+    list-style: none;
+    padding: 12px;
+}
+.upper-section-button
+{
+    justify-content: center;
+    align-items: center;
+    height: 0vh;
+    padding: 6%;
+}
+.all-hiring-info
+{
+    display: flex;
+    width: fit-content;
+    margin: auto;
+    font-size: 24px;
+}
+ .all-hiring-info ul
+{
+    padding: 20px;
+    display: block;
+    margin: auto;
+    font-weight: normal;
+    width: fit-content;
+}
+.all-hiring-info li
+{
+    list-style: none;
+    padding: 12px;
+    list-style: disc;
+}
+.all-hiring-info h4
+{
+    padding: 16px;
+    margin: auto;
+    width: fit-content;
+}
+.readyto
+{
+    padding-top: 2.5%;
+    padding-bottom: 1.5%;
+}
+.readyto h1
+{
+    margin: 0 auto;
+    width: fit-content;
+}
+.readyto h4
+{
+    margin: 0 auto;
+    width: fit-content;
+    padding: 12px;
+    color: red;
+}
+.readyto p
+{ 
+    width: fit-content;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    color: black;
+}
+
+/*************************************************/
+ /*** Code Below effects Mobile View ***/
+
+@media screen and (max-width: 700px) 
+{
+.upper-section
+{
+    height: 25vh;
+    background: url(/index/S2Truck.jpg) no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+}
+.upper-section-button
+{
+
+    justify-content: center;
+    align-items: center;
+    height: 0vh;
+    padding: 10%;
+
+}
+.readyto
+{
+    margin: auto;
+    padding-top: 5%;
+    padding-bottom: 1.5%;
+    width: 90%;
+
+}
+.readyto h1
+{
+    font-size: 125%;
+    margin: 0 auto;
+    width: fit-content;
+}
+.readyto h4
+{
+    font-size: 16px;
+    margin: 0 auto;
+    width: fit-content;
+    padding: 12px;
+    color: red;
+}
+.readyto p
+{ 
+    font-size:16px;
+    width: fit-content;
+    margin: auto;
+    justify-content: center;
+    text-align: l;
+    color: black;
+}
+.all-hiring-info ul
+{
+    padding: 20px;
+    display: block;
+    margin: auto;
+    font-weight: normal;
+    width: 90%;
+    font-size: 16px;
+}
+.all-hiring-info li
+{
+    list-style: none;
+    padding: 12px;
+    list-style: disc;
+}
+}
